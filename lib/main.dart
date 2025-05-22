@@ -48,7 +48,9 @@ class _MyHomePageState extends State<MyHomePage> {
             color: Colors.black,
             size: 18,
           ),
-          onPressed: () {},
+          onPressed: () {
+            exit(0);
+          },
         ), //Back Arrow
       ),
       body: ListView(
@@ -501,7 +503,7 @@ class SecondScreen extends StatelessWidget {
                     padding: const EdgeInsets.fromLTRB(4,8,16,0),
                     child: Container(
                       height: 4,
-                      color: Color(0xFFF5F5F5),
+                      color: Color(0xFF713100),
                     ),
                   ),
                 ),
